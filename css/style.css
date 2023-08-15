@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap");
+* {
+  background-color: #534538;
+  color: white;
+  overflow-x: hidden !important;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+.header {
+  background-color: #534538;
+  height: 15vh;
+  width: 100%;
+}
+
+.header .logo:hover {
+  background-color: transparent;
+}
+
+.navbar .nav-link {
+  color: white;
+  font-size: 20px;
+  font-family: "Montserrat", sans-sefif;
+  gap: 30px;
+  padding-bottom: 4px;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  font-size: 25px;
+}
+
+.navbar ul {
+  gap: 40px;
+}
+
+.logoFelipe {
+  width: 7vw;
+  height: 7vh;
+  border: 2px solid white;
+  border-radius: 4px;
+}
+
+.backgroundImage {
+  height: 80vh;
+  width: 100%;
+  padding-right: 20px;
+}
+
+#about {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about h1 {
+  font-size: 80px;
+  font-family: "Montserrat", sans-sefif;
+  margin: 0;
+  padding-top: 0px;
+  font-weight: 300;
+}
+
+.aboutFelipe {
+  font-size: 25px;
+  padding-top: 25px;
+  font-family: "Montserrat", sans-sefif;
+  margin: 0;
+  word-spacing: 3px;
+  padding-bottom: 20px;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 12vw;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#technologies {
+  padding-top: 130px;
+}
+
+.carouselImg {
+  height: 70vh;
+  width: 50vw;
+  padding-left: 30px;
+  padding-bottom: 90px;
+  padding-top: 40px;
+}
+
+.carouselItem2 {
+  width: 70vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselDesc {
+  font-family: "Montserrat", sans-sefif;
+  font-size: 30px;
+  word-spacing: 3px;
+}
+
+.moreTech {
+  height: 100%;
+  padding-bottom: 10px;
+  padding-top: 30px;
+  margin: 0;
+}
+
+.sassIcon {
+  height: 30vh;
+  font-size: 120px;
+  padding-left: 20px;
+  padding-top: 0px;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+.bootstrapIcon {
+  height: 30vh;
+  font-size: 120px;
+  padding-left: 20px;
+  padding-top: 0px;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+.moreTech i {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.moreTech p {
+  height: 100%;
+  width: 60%;
+  font-size: 30px;
+  font-family: "Montserrat", sans-sefif;
+  padding-top: 70px;
+  padding-left: 10px;
+  margin: auto;
+}
+
+#projects {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.containerSpinner {
+  height: 80vh;
+  width: 100vw;
+}
+
+.spinner-border {
+  font-size: 50px;
+  width: 5rem !important;
+  height: 5rem !important;
+  border: 0;
+  padding: 0;
+}
+
+#projects p {
+  font-size: 60px;
+  font-family: "Montserrat", sans-sefif;
+  border: 0;
+}
+
+#contact {
+  height: 100%;
+  width: 100%;
+}
+
+.containerContact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+.linkedinIcon {
+  font-size: 120px;
+}
+
+.containerContact p {
+  height: 5vh;
+  font-size: 25px;
+  font-family: "Montserrat", sans-sefif;
+  margin: 0;
+  overflow-y: hidden;
+}
+
+.containerContact a {
+  text-decoration: none;
+  color: white;
+}
+
+.containerContact a:hover {
+  background-color: white;
+  color: black;
+}
+
+.emailIcon {
+  font-size: 120px;
+  overflow-y: hidden;
+}
+
+.whatsappIcon {
+  font-size: 120px;
+}
+
+.contactIcons {
+  width: 100vw;
+  height: 100vh;
+}
+
+@media (max-width: 1024px) {
+  .navbar .nav-link {
+    font-size: 15px;
+  }
+  .backgroundImage {
+    width: 80%;
+    margin-left: 100px;
+  }
+  #about {
+    width: auto;
+    height: 80%;
+  }
+  #about h1 {
+    font-size: 30px;
+  }
+  #about p {
+    font-size: 20px;
+  }
+  .carouselImg {
+    width: 80vw;
+    height: 80vh;
+  }
+  .carouselDesc {
+    font-size: 20px;
+    margin-top: auto;
+  }
+  .moreTech p {
+    font-size: 20px;
+  }
+  .sassIcon {
+    font-size: 90px;
+    padding-left: 40px;
+    padding-top: 50px;
+  }
+  .bootstrapIcon {
+    font-size: 90px;
+    padding-left: 40px;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 15px;
+  }
+  .navbar a:hover {
+    font-size: 20px;
+    color: white;
+  }
+  .aboutFelipe {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  #about {
+    height: 100vh;
+  }
+  #about h1 {
+    font-size: 40px;
+    padding-bottom: 10px;
+  }
+  .arrowDown {
+    display: inline-block;
+    width: 10vw;
+    padding-top: auto;
+  }
+  .carouselImg {
+    height: 80vh;
+  }
+  .carouselDesc {
+    font-size: 20px;
+    width: 80%;
+  }
+  .moreTech {
+    height: 50vh !important;
+    width: 300px;
+    padding: auto;
+  }
+  .sassIcon {
+    font-size: 80px;
+  }
+  .moreTech i {
+    padding-left: 30px;
+  }
+  .moreTech p {
+    font-size: 20px;
+  }
+  .bootstrapIcon {
+    font-size: 80px;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
